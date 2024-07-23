@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#main{ 
+    width: 100%;
+    min-height: 100vh;
+
+}
+#top{
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(https://i.ytimg.com/vi/J0yKOaZsjcg/hqdefault.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#text{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 350px;
+    width: 100%;
+    padding: 0 10vw;
+    color:red
+}
+
+#textright {
+    width: 70%;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+#textright i{
+    color: black;
+}
+
+textright p{
+    font-size: 10px;
+}
+
+
+#text h1{
+    font-weight: bold;
+    font-size: 8vw;
+    
+}
+
+#bottom{
+    display: flex;
+    width: 100%;
+    min-height: 30vh;
+    background-color: rgb(32, 32, 205);
+}
+
+#bone{
+    width: 25%;
+    min-height: inherit;
+    padding: 20px;
+    background-color:white;
+}
+
+
+#btwo{
+    width: 25%;
+    min-height: inherit;
+    background-image: url(https://i.pinimg.com/236x/f5/cd/40/f5cd4010b7379a8f3dd19926883fed89.jpg?nii=t);
+    background-size:cover;
+    background-position: center;
+}
+
+
+#bthree{
+    width: 25%;
+    min-height: inherit;
+    background-color:rgb(255, 0, 102);
+}
+#bthreetop{
+    width: 100%;
+    min-height: 20vh;
+    padding: 20px;
+    color: #fff;
+    background-color:orange;
+}
+#bthreetop p{
+    font-size: 14px;
+}
+#bthreebottom{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://wallpapercrafter.com/th800/71977-abstract-digital-art-hd-4k.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#bfour{
+    width: 25%;
+    min-height: inherit;
+    padding: 30px;
+    background-color:#444431ca;
+    color: #fff;
+}
+
+.notf{margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notf #photo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.notf p{
+    width: 86%;
+    font-size: 12px;
+}
+ 
+@media (max-width: 500px){
+    #text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+}
+
+#text #textright{
+    align-items: flex-start;
+    font-display:column;
+}
+
+#text #textright p{
+    width: initial;
+    margin-top: 20px;
+}
+    
+#text #textright #icons{
+    margin-top: 30px;
+    
+}
+#text h1{
+    font-size: 10vw;
+}
+
+#bottom{
+    flex-direction: column;
+}
+
+#bone{
+    width: 100%;
+}
+#btwo{
+    width: 100%;
+}
+#bthree{
+    flex-direction: column;
+    width: 100%;
+}
+#bfour{
+    width: 100%;
+}
